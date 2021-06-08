@@ -1,0 +1,46 @@
+{
+    "name": "coc7e_tc_compendium",
+    "title": "COC7e Traditional Chinese Compendium",
+    "description": "Include basic actors, weapon, spell, skills",
+    "version": "0.1",
+    "author": "painfulstoryteller",
+       "packs": [
+    {
+      "name": "Melee Weapon",
+      "label": "TC Melee Weapon_COC",
+      "path": "/packs/cocweaponmelee_tc.db",
+      "entity": "Item",
+      "module": "SharedData"
+    },
+        {
+      "name": "Ranged Weapon",
+      "label": "TC Ranged Weapon_COC",
+      "path": "/packs/cocweaponranged_tc.db",
+      "entity": "Item",
+      "module": "SharedData"
+    },
+    
+    
+    {
+      "name": "Spell",
+      "label": "TC Spel_COC",
+      "path": "packs/cocspell_tc.db",
+      "entity": "Item",
+      "module": "SharedData"
+    },
+    {
+      "name": "Sanity Table",
+      "label": "TC Sanity Table_COC",
+      "path": "packs/cocsanitytable_tc.db",
+      "entity": "RollTable",
+      "module": "SharedData"
+    },
+    {
+      "name": "Roll Request",
+      "label": "TC_Roll Request_COC",
+      "path": "packs/cocrollrequest.db",
+      "entity": "JournalEntry",
+      "module": "SharedData"
+    }
+  ]
+ }
