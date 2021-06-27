@@ -23,7 +23,7 @@
     
     {
       "name": "Spell",
-      "label": "TC Spel_COC",
+      "label": "TC Spell_COC",
       "path": "packs/cocspell_tc.db",
       "entity": "Item",
       "module": "SharedData"
@@ -40,6 +40,20 @@
       "label": "TC_Roll Request_COC",
       "path": "packs/cocrollrequest.db",
       "entity": "JournalEntry",
+      "module": "SharedData"
+    },
+        {
+      "name": "Macro",
+      "label": "TC_Macro_COC",
+      "path": "packs/cocmacro_tc.db",
+      "entity": "Macro",
+      "module": "SharedData"
+    },
+        {
+      "name": "Actor",
+      "label": "TC_Actor_COC",
+      "path": "packs/cocactor_tc.db",
+      "entity": "Actor",
       "module": "SharedData"
     }
   ]
